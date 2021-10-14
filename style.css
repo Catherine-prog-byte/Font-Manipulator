@@ -11,7 +11,7 @@
 canvas {
     border: 5px solid white;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px cornflowerblue;
+    box-shadow: 5px 5px 5px rgb(228, 197, 113);
 }
 .copy_right_footer {
     width: 100%;

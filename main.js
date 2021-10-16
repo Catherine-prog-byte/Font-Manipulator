@@ -1,9 +1,9 @@
 function preload() {
 }
 function draw() {
-    background("#46435C");
+    background("#EABD6A");
 }
-function setUp() {
+function setup() {
     video=createCapture(VIDEO);
     video.size(500 , 500);
     canvas = createCanvas(400 , 400 );

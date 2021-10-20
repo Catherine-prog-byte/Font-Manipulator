@@ -8,10 +8,10 @@ function preload() {
 function draw() {
     background("#EABD6A");
     document.getElementById("text_size").innerHTML="width and height of the text is = "+difference+"px";
+    textSize(difference);
     fill("#6AEAB0");
     stroke("#6AEAB0");
     text("Catherine Angelina Roberts",noseX,noseY);
-    textSize(difference);
 }
 function setup() {
     video=createCapture(VIDEO);
